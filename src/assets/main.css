@@ -1,3 +1,11 @@
 @import "tailwindcss";
 
 
+
+@theme {
+  --color-eerie-black: #1b1b1e;
+  --color-orange-web: #faa916;
+  --color-carmine: #96031a;
+}
+
+/* opcional: estilos personalizados */
