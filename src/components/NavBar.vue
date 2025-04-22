@@ -11,7 +11,7 @@
         </svg>
       </button>
   
-      <!-- Menu (visível em desktop ou quando toggle ativado no mobile) -->
+      <!-- Menu (visível em desktop ou quando toggle for ativado no mobile) -->
       <ul
         :class="[
           'flex gap-4',
@@ -38,6 +38,6 @@
   </script>
   
   <style lang="css">
-  /* pode personalizar aqui se quiser animações ou transições */
+
   </style>
   
