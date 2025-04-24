@@ -1,5 +1,5 @@
 <template>
-    <section class=" bg-eerie-black px-6 py-12 md:grid md:grid-cols-2 gap-8 items-center">
+    <section class=" h-screen bg-eerie-black px-6 py-12 md:grid md:grid-cols-2 gap-8 items-center">
         <!-- Texto -->
         <div>
             <h2 class="text-orange-web text-3xl font-bold mb-4 p-2">Quem sou eu</h2>

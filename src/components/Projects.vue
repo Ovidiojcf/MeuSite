@@ -1,6 +1,6 @@
 <!-- src/components/Projects.vue -->
 <template>
-    <section class="px-4 py-16 bg-eerie-black text-white">
+    <section class="h-screen not-first-of-type:px-4 py-16 bg-eerie-black text-white">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-orange-web text-3xl md:text-4xl font-bold mb-12 text-center">Meus Projetos</h2>
 

@@ -1,9 +1,11 @@
 <script setup>
 import '@/main.js'
-import Navbar from './components/Navbar.vue'
+import Navbar from './components/NavBar.vue'
 import Hero from './components/Hero.vue'
 import About from './components/About.vue'
 import Skills from './components/Skills.vue'
+import Projects from './components/Projects.vue'
+import ContactForm from './components/ContactForm.vue'
 </script>
 
 <template>
@@ -11,6 +13,8 @@ import Skills from './components/Skills.vue'
   <Hero/>
   <About/>
   <Skills/>
+  <Projects/>
+  <ContactForm/>
 </template>
 
 

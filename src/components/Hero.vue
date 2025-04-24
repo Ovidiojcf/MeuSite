@@ -1,9 +1,5 @@
-<script>
-
-</script>
-
 <template>
-    <section class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-4 p-10 bg-white">
+    <section class="flex flex-col h-screen md:flex-row items-center justify-between gap-6 md:gap-4 p-10 bg-white">
         <!-- Esquerda: Texto principal -->
         <div class="text-center md:text-left md:w-1/3 space-y-4">
             <h1 class="text-3xl md:text-5xl font-bold text-eerie-black">Olá, eu sou</h1>
@@ -42,5 +38,3 @@
     </section>
 </template>
 
-<style scoped>
-</style>
