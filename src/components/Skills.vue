@@ -1,5 +1,5 @@
 <template>
-    <section class="h-screen px-4 py-16 bg-eerie-black text-white">
+    <section class="h-screen px-4 py-16  text-eerie-black bg-white">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-orange-web text-3xl md:text-5xl font-bold mb-12 text-center">Minhas Habilidades</h2>
 
