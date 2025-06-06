@@ -1,9 +1,9 @@
 <template>
     <section class="flex flex-col h-screen md:flex-row items-center justify-between gap-6 md:gap-4 p-10 bg-white">
         <!-- Esquerda: Texto principal -->
-        <div class="text-center md:text-left md:w-1/3 space-y-4">
-            <h1 class="text-3xl md:text-5xl font-bold text-eerie-black">Olá, eu sou</h1>
-            <p class="text-lg text-gray-700">Desenvolvedor Front-end com foco em acessibilidade e UX.</p>
+        <div class="text-center md:text-left md:w-1/3 space-y-2">
+            <h1 class="text-xl md:text-3xl font-bold text-eerie-black">Olá, sou Ovídio Farias</h1>
+            <h2 ref="typewriterRef" class="font-bold text-xl md:text-3xl  text-orange-web h-8"></h2>
         </div>
 
         <div class="flex flex-col items-center md:items-center">
@@ -38,3 +38,24 @@
     </section>
 </template>
 
+<script setup>
+import { ref, onMounted } from 'vue';
+import Typewriter from 'typewriter-effect/dist/core';
+
+const typewriterRef = ref(null);
+
+onMounted(() => {
+    if (typewriterRef.value) {
+        new Typewriter(typewriterRef.value, {
+            strings: ['Desenvolvedor Front-end', 'Acessível e focado em UX', 'Criativo e objetivo'],
+            autoStart: true,
+            loop: true,
+            cursor: '|',
+            delay: 100,
+            deleteSpeed: 50,
+        })
+    }
+})
+
+
+</script>

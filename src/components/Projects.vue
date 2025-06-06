@@ -26,19 +26,25 @@ export default {
             projects: [
                 {
                     id: 1,
-                    title: 'Portfólio Pessoal',
-                    description: 'Um site responsivo para apresentar minhas habilidades e projetos.',
-                    image: new URL('@/assets/projects/portfolio.png', import.meta.url).href,
-                    link: 'https://meuportfolio.com',
+                    title: 'To-Do List App',
+                    description: 'App de organização pessoal para planejar e acompanhar tarefas diárias.',
+                    image: '/todoApp.png',
+                    link: 'https://github.com/Ovidiojcf/todolist',
                 },
                 {
                     id: 2,
-                    title: 'Aplicativo de Tarefas',
-                    description: 'Uma aplicação Vue.js para gerenciamento de tarefas diárias.',
-                    image: new URL('@/assets/projects/todo-app.png', import.meta.url).href,
-                    link: 'https://github.com/usuario/todo-app',
+                    title: 'Ecommerce-API',
+                    description: 'Projeto de e-commerce construído com Vue 3, Vite e Pinia, focado em performance, organização de código e boas práticas no consumo de APIs REST.',
+                    image: '/ecommerce.png',
+                    link: 'https://github.com/Ovidiojcf/E-commerce-API',
                 },
-                // Adicione mais projetos conforme necessário
+                {
+                    id: 3,
+                    title: 'Landing Page - Fanta',
+                    description: 'Projeto de landing page responsiva e animada com HTML, CSS e JavaScript, utilizando GSAP e ScrollTrigger para animações com rolagem.',
+                    image: '/lpFanta.png',
+                    link: 'https://github.com/Ovidiojcf/LandingPage-Fanta',
+                }
             ],
         };
     }
