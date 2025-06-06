@@ -1,6 +1,6 @@
 <!-- src/components/Projects.vue -->
 <template>
-    <section class="h-screen not-first-of-type:px-4 py-16 bg-eerie-black text-white">
+    <section class="h-flex not-first-of-type:px-4 py-16 bg-eerie-black text-white">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-orange-web text-3xl md:text-4xl font-bold mb-12 text-center">Meus Projetos</h2>
 
@@ -44,6 +44,13 @@ export default {
                     description: 'Projeto de landing page responsiva e animada com HTML, CSS e JavaScript, utilizando GSAP e ScrollTrigger para animações com rolagem.',
                     image: '/lpFanta.png',
                     link: 'https://github.com/Ovidiojcf/LandingPage-Fanta',
+                },
+                {
+                    id: 4,
+                    title: 'Api-Marvel',
+                    description: 'App de organização pessoal para planejar e acompanhar tarefas diárias. Desenvolvimento utilizando Next JS, Tailwind CSS, Prisma e SQLite.',
+                    image: '/api-marvel.png',
+                    link: 'https://github.com/Ovidiojcf/api-marvel',
                 }
             ],
         };
